@@ -62,7 +62,7 @@ hr {
     border: none;
     background-color: var(--clr-green-light);
     height: 2px;
-    width: 400px;
+    width: 300px;
     margin: 20px auto;
 }
 
@@ -124,13 +124,13 @@ i {
 .menu__searchbox input[type=text] {
     border: none;
     border-radius: 2px 0px 0px 2px;
-    width: 450px;
+    /*width: 450px;*/
     padding: 8px;
     font-size: 17px;
 }
 
 .menu__searchbox input:focus {
-    outline: solid 0.2rem var(--clr-green-light);
+    outline: none;
 }
 
 .menu__searchbox button {
@@ -178,7 +178,7 @@ i {
     background-color: #fefefe;
     margin: 5px auto;
     border: 1px solid #888;
-    width: 30%;
+    width: 50%;
     padding: 25px;
 }
 
@@ -256,6 +256,12 @@ i {
 @keyframes animatezoom {
     from {transform: scale(0)}
     to {transform: scale(1)}
+}
+
+@media (max-width: 800px) {
+    .login-container__display {
+        width: 100%;
+    }
 }
 
 /**********************************/
@@ -439,8 +445,3 @@ i {
     font-size: 0.8rem;
     color: #fff;
 }
-/*.footer-container ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}*/
