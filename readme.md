@@ -4,7 +4,7 @@ Nesse projeto, foi desenvolvido um site responsivo usando Flexbox e exercitado o
 
 Vizualize o site clicando [aqui](https://ssgbrl-flexbox.netlify.app/).
 
-## Técnologias utilizadas
+## Tecnologias utilizadas
 * HTML
 * CSS
 * Javascript
