@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="lojas, online, lojas online, online store, móveis, eletrodomesticos, roupas, calçados, games">
+    <meta name="description" content="Tudo para você e a sua casa.">
+    <script src="/js/index.js" defer></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ade0d3cee7.js" crossorigin="anonymous"></script>
+    <title>Lojas Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-menu">
+            <div class="menu">
+                <div class="menu__logo">
+                    <a href="index.html"><img src="/img/logo.png" alt="logo da loja"></a>
+                </div> <!-- .menu__logo -->
+                <div class="menu__searchbox">
+                    <input type="text" placeholder="Pesquisar">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div> <!-- menu__searchbox -->
+                <nav class="nav">
+
+                    <ul class="nav__list">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <li><a href="#" class="nav__link" onclick="loginBoxToggle()".style.display="block">Login</a></li>
+                        <li><a href="#categories" class="nav__link">Categorias</a></li>
+                        <li><a href="#about" class="nav__link">Sobre</a></li>
+                        <li><a href="#contacts" class="nav__link">Contato</a></li>
+                    </ul> <!-- .nav__link -->
+
+                <div id="login" class="login-box" style="display: none;">
+                    <div class="login-container animate">
+                        <div class="login-container__display">
+                            <h1>Bem-vindo de volta!</h2>
+
+                            <label for="username">Seu e-mail ou número de telefone celular</label>
+                            <input type="text" id="username" required><br>
+
+                            <label for="password">Sua Senha</label>
+                            <input type="password" id="password" required><br>
+
+                            <span class="recover"><a href="#">Precisa de ajuda?</span></a><br>
+
+                            <button type="submit">Entrar</button><br>
+                            <button type="button" id="cancel" onclick="loginBoxToggle()">Cancelar</button>
+                            <span class="register">Novo por aqui? <a href="#">Cadastre-se.</a></span>
+                            
+                        </div> <!-- .login-container__display -->
+                    </div> <!-- .login-container -->
+                </div> <!-- .login-box -->
+
+                </nav> <!-- .nav -->
+            </div> <!-- .menu -->
+        </div> <!-- .top-menu -->
+        <h1 class="intro">Tudo para você e a sua casa</h1>
+    </header>
+    
+<hr>
+
+    <section class="categories" id="categories"> 
+        <h2 class="section__title">Categorias</h2>
+        <div class="categories-container">
+            <div class="ctg">
+                <a href="#"><img src="/img/01.png" alt="01" class="ctg__img"></a>
+                <h3 class="ctg__title">Alimentos e Bebidas</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/02.png" alt="02" class="ctg__img"></a>
+                <h3 class="ctg__title">Automotivo</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/03.png" alt="03" class="ctg__img"></a>
+                <h3 class="ctg__title">Beleza </h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/04.png" alt="04" class="ctg__img"></a>
+                <h3 class="ctg__title">Casa e Jardim</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/05.png" alt="05" class="ctg__img"></a>
+                <h3 class="ctg__title">Cozinha</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/06.png" alt="06" class="ctg__img"></a>
+                <h3 class="ctg__title">Eletronicos</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/07.png" alt="07" class="ctg__img"></a>
+                <h3 class="ctg__title">Ferramentas</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/08.png" alt="08" class="ctg__img"></a>
+                <h3 class="ctg__title">Games</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+           
+        <div id="hidden" style="display: none;">
+            <div class="ctg">
+                <a href="#"><img src="/img/09.png" alt="09" class="ctg__img"></a>
+                <h3 class="ctg__title">Livros</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/10.png" alt="10" class="ctg__img"></a>
+                <h3 class="ctg__title">Papelaria</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/11.png" alt="11" class="ctg__img"></a>
+                <h3 class="ctg__title">Pets</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="ctg">
+                <a href="#"><img src="/img/12.png" alt="12" class="ctg__img"></a>
+                <h3 class="ctg__title">Roupas</h3>
+                <p class="ctg__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+            
+            <div class="ctg-button">
+                <button onclick="toggle()" type="button" id="button" >Ver todas as categorias</button>
+            </div>
+            
+        </div> <!-- .hidden -->
+    </section> <!-- .categorias -->
+
+<hr>
+
+    <section class="sales" id="sales">
+        <h2 class="section__title-2">Ofertas Relâmpago</h2>
+        <div class="sales-container">
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_01.png" alt="of_01" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_02.png" alt="of_02" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_03.png" alt="of_03" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_04.png" alt="of_04" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_05.png" alt="of_05" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+        </div> <!-- .sales-container -->
+    </section> <!-- .sales -->
+
+    <section class="banner">
+        <div class="banner-img">
+            <a href="#"><img src="/img/banner-placeholder2.png" alt="banner da promoção atual"></a>
+        </div> <!-- .banner-img -->
+    </section> <!-- .banner -->
+
+    <section class="sales" id="sales">
+        <h2 class="section__title-2">Outras Ofertas</h2>
+        <div class="sales-container">
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_06.png" alt="of_06" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_07.png" alt="of_07" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_08.png" alt="of_08" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_09.png" alt="of_09" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            <div class="sales-container__box">
+                <a href="#"><img src="/img/of_10.png" alt="of_10" class="ctg__img"></a>
+                <span class="price-initial">R$0,00</span><br>
+                <span class="price-discount">R$0,00 (0% off)</span><br>
+                <span class="product-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p></span>
+            </div>
+
+            </div> <!-- .sales-container__box -->
+        </div> <!-- .sales-container -->
+    </section> <!-- .sales -->
+
+<hr>
+
+    <section class="about" id="about">
+        <h2 class="section__title">Sobre Nós</h2>
+        <div class="about-container">
+                <div class="about-container__text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div> <!-- .about-container__text -->
+        </div> <!-- .about-container -->
+    </section> <!-- .about -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-container__top">
+                <ul class="footer-container__links">
+                    <li><a href="#" class="footer__links" id="careers">Trabalhe conosco</a></li>
+                    <li><a href="#" class="footer__links" id="tos">Termos de uso</a></li>
+                    <li><a href="#" class="footer__links" id="contact">Contato</a></li>
+                    <li><a href="#" class="footer__links" id="privacy">Privacidade</a></li>
+                </ul> <!-- .footer-container__links -->
+            </div> <!-- .footer-container__top -->
+
+            <div class="footer-container__bottom">
+                <span class="footer-container__copyright">Projeto feito por Gabriel S.<br></span>
+                    <a href="https://www.linkedin.com/in/gsouza28/">LinkedIn</a> | 
+                    <a href="https://github.com/ssgbrl">GitHub</a><br>
+                    <span class="info" id="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span><br>
+                </p>                
+            </div> <!-- .footer-container_bottom -->
+        </div> <!-- .footer-container -->
+    </footer>
+
+</body>
+</html>
